@@ -7,10 +7,57 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>frameWork</title>
 </head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+<body class = "bg-red-600 justify-center justify-items-center">
+
+    <header class = "flex flex-col">
+
+        <h1 class="text-5xl mt-[120px] text-white font-sans">Criar Conta</h1>
+
+        <div class="flex gap-[30px] mt-[30px] justify-center justify-items-center">
+
+        <div  class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-black text-xl font-bold shadow-[0_10px_20px_rgba(0,0,0,0.3)]">f</div>
+        <div  class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold shadow-[0_10px_20px_rgba(0,0,0,0.7)]">G</div>
+        <div  class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-black text-xl font-bold shadow-[0_10px_20px_rgba(0,0,0,0.3)]">in</div>
+
+        </div>
+
+        <div class = "flex gap-[30px] mt-[30px] justify-center justify-items-center">
+            <p class="text-white">ou cadastre seu email</p>
+        </div>
+    </header>
+
+    <main class="flex gap-[20px] mt-[30px] justify-center justify-items-center flex-col">
+
+        <input 
+        type="text" 
+        placeholder="Nome"
+        class="w-70 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
+      />
+
+      <input 
+      type="text" 
+      placeholder="E-mail"
+      class="w-70 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
+      />
+
+      <input 
+      type="text" 
+      placeholder="Senha"
+      class="w-70 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
+    />
+
+    <div class="flex justify-center justify-items-center ">
+        <button class="w-50 h-10 bg-red-600 text-white font-semibold rounded-full border-2 border-white hover:bg-red-600 transition">
+            CADASTRAR
+          </button>
+    </div>
+    
+
+    </main>
+    <footer class="flex gap-[10px] mt-[20px]">
+        <p class="text-white">Já tem conta?</p>
+        <p class="text-white font-bold">Login</p>
+    </footer>
     
 </body>
 </html>
